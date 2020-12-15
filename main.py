@@ -10,7 +10,11 @@ def is_on_list(list, item):
 def get_x(list, item):
   return list[item]
 
+def add_x(list, item):
+  list.append(item)
 
+def remove_x(list, item):
+  list.remove(item)
 
 # \/\/\/\/\/\/\  DO NOT TOUCH AREA  \/\/\/\/\/\/\ #
 
